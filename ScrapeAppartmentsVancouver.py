@@ -1,4 +1,5 @@
 
+
 # This script usese BeautifulSoup to scrape the goals information of PL players for the tables that can be found on the offical Premier League Website. It demonstrates proficiencies in both Beautiful Soup and Pandas. 
 
 # Import Libraries
@@ -50,8 +51,9 @@ name.click()    # Click to navigate to the listing view
 time.sleep(2)  # Time to rest prior to removing cookie pop up
 
 next_btn = driver.find_element_by_xpath("//*[@id='root']/div/div/div[2]/div/div/div/div/div[1]/button[3]")  # Define the xpath to the next listing button
+# next_btn.click()    
 
-for i in range (1, 5):
+for i in range (1, 10):
 
     time.sleep(2)  # Time to rest prior to removing cookie pop up
 
